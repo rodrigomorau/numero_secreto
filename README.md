@@ -61,3 +61,10 @@ git remote -v
 
 ### enviar os arquivos para o github
 git push -u origin main
+
+===========================
+
+### para verificar o status das alterações nos arquivos
+git status
+
+
