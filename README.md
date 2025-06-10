@@ -42,8 +42,8 @@ O comando "git status" é uma ferramenta indispensável para qualquer desenvolve
 ### adiciona todos os arquivos ao git. para adicionar somente um arquivo especificar o nome do arquivo no lugar do "."
 git add .
 
-
-### git commit -m "informar alguma coisa sobre o projeto"
+### para salvar as alterações 
+git commit -m "informar alguma coisa sobre o projeto"
 
 
 ### configuração para informar usuario do git no computador. deve solicitar somente na primeira vez que associa o usuario no git do computador
@@ -67,4 +67,5 @@ git push -u origin main
 ### para verificar o status das alterações nos arquivos
 git status
 
-
+### histórico dos commits
+git log
