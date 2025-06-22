@@ -6,7 +6,8 @@
 <p> https://www.alura.com.br/artigos/como-criar-um-readme-para-seu-perfil-github
 
 ========================
-<h1> Principais comandos GI </h1>
+<h1 align="center"> Principais comandos Git </h1>
+
 <h2> Inicia o git no projeto </h2>
 <p> git init
 
@@ -16,12 +17,9 @@
 <h2> para salvar as alterações </h2> 
 <p> git commit -m "informar alguma coisa sobre o projeto"
 
-
 <h2> configuração para informar usuario do git no computador. deve solicitar somente na primeira vez que associa o usuario no git do computador </h2>
 <p> git config --global user.mail "email de cadastro do git"
 <p> git config --global user.name "meu nome"
-
-
 <p> git branch -m main     
 
 <h2> Sincronizar o repositorio local no github </h2>
@@ -32,8 +30,6 @@
 
 <h2> Enviar os arquivos para o github </h2>
 <p> git push -u origin main
-
-===========================
 
 <h2> Verificar o status das alterações nos arquivos </h2>
 <p> git status
@@ -50,6 +46,13 @@
 
 <h2> alterar a msg de um commit </h2>
 <p> git commit --amend -m "mensagem correta"
+
+
+Como não enviar arquivos de senhas para o GitHub
+arquivo .gitignore
+
+
+
 
 ============================
 
