@@ -68,6 +68,7 @@ git push -u origin main
 git status
 
 ### histórico dos commits
+<<<<<<< HEAD
 git log
 
 ### Reverter Commit: desfazer uma mudança no código sem excluir o commit anterior
@@ -79,3 +80,6 @@ git reset --hard "id commit anterior"
 
 ### alterar a msg de um commit
 fit commit --amend -m "mensagem correta"
+=======
+git log
+>>>>>>> 5ab34e3ccebcaca755b6473ccb6ab70409f4759d
