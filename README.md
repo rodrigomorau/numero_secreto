@@ -37,7 +37,7 @@ O comando "git status" é uma ferramenta indispensável para qualquer desenvolve
 ========================
 
 ### inicia o git no projeto
-  git init
+**git init**
 
 ### adiciona todos os arquivos ao git. para adicionar somente um arquivo especificar o nome do arquivo no lugar do "."
 git add .
