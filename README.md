@@ -35,48 +35,49 @@ Além disso, o comando "git status" pode fornecer informações adicionais sobre
 O comando "git status" é uma ferramenta indispensável para qualquer desenvolvedor que utiliza Git. Ele permite monitorar as alterações no repositório, identificar o estado dos arquivos e tomar decisões de gerenciamento de commits de forma eficiente.
 
 ========================
+<h1> Principais comandos GI </h1>
+<h2> Inicia o git no projeto </h2>
+<p> git init
 
-<h1> inicia o git no projeto </h1>
-git init
+<h2>  adiciona todos os arquivos ao git. para adicionar somente um arquivo especificar o nome do arquivo no lugar do "."</h2> 
+<p> git add .
 
-### adiciona todos os arquivos ao git. para adicionar somente um arquivo especificar o nome do arquivo no lugar do "."
-git add .
-
-### para salvar as alterações 
-git commit -m "informar alguma coisa sobre o projeto"
-
-
-### configuração para informar usuario do git no computador. deve solicitar somente na primeira vez que associa o usuario no git do computador
-git config --global user.mail "email de cadastro do git"
-git config --global user.name "meu nome"
+<h2> para salvar as alterações </h2> 
+<p> git commit -m "informar alguma coisa sobre o projeto"
 
 
-git branch -m main     
+<h2> configuração para informar usuario do git no computador. deve solicitar somente na primeira vez que associa o usuario no git do computador </h2>
+<p> git config --global user.mail "email de cadastro do git"
+<p> git config --global user.name "meu nome"
 
-### sincronizar o repositorio local no github
-git remote add origin git@github.com:rodrigomorau/financas.git
 
-### verificar o apelido do repositorio
-git remote -v
+<p> git branch -m main     
 
-### enviar os arquivos para o github
-git push -u origin main
+<h2> Sincronizar o repositorio local no github </h2>
+<p> git remote add origin git@github.com:rodrigomorau/financas.git
+
+<h2> Verificar o apelido do repositorio </h2>
+<p> git remote -v
+
+<h2> Enviar os arquivos para o github </h2>
+<p> git push -u origin main
 
 ===========================
 
-### para verificar o status das alterações nos arquivos
-git status
+<h2> Verificar o status das alterações nos arquivos </h2>
+<p> git status
 
-git log
+<h2> Verificar commits </h2>
+<p> git log
 
-### Reverter Commit: desfazer uma mudança no código sem excluir o commit anterior
-git revert "id commit"
+<h2> Reverter Commit: desfazer uma mudança no código sem excluir o commit anterior </h2>
+<p> git revert "id commit"
 
-### apagar um commit: apaga o commit anterior
-#### Evitar utilizar essa função após enviar as alterações para o github
-git reset --hard "id commit anterior"
+<h2> apagar um commit: apaga o commit anterior </h2>
+<h3> Evitar utilizar essa função após enviar as alterações para o github </h3>
+<p> git reset --hard "id commit anterior"
 
-### alterar a msg de um commit
-git commit --amend -m "mensagem correta"
+<h2> alterar a msg de um commit </h2>
+<p> git commit --amend -m "mensagem correta"
 
 
