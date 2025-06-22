@@ -69,3 +69,13 @@ git status
 
 ### histórico dos commits
 git log
+
+### Reverter Commit: desfazer uma mudança no código sem excluir o commit anterior
+git revert "id commit"
+
+### apagar um commit: apaga o commit anterior
+#### Evitar utilizar essa função após enviar as alterações para o github
+git reset --hard "id commit anterior"
+
+### alterar a msg de um commit
+fit commit --amend -m "mensagem correta"
