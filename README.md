@@ -48,9 +48,16 @@
 <p> git commit --amend -m "mensagem correta"
 
 
-Como não enviar arquivos de senhas para o GitHub
-arquivo .gitignore
+<h2> Como não enviar arquivos de senhas para o GitHub </h2>
+<p> arquivo .gitignore
+<p> site gitignore.io: site para criar automaticamente o arquivo gitignore informando as tecnologias e a linguagem de programação para não atualizar arquivos internos para o github
 
+<h2> Compartilhar somente um trecho do código </h2>
+<p> Não precisa criar um novo repositório
+<p> New gist dentro do site do github
+
+<h2> CRriar arquivo de log dos commits </h2>
+<p> git log > logs.txt
 
 
 
