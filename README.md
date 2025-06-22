@@ -80,4 +80,11 @@ O comando "git status" é uma ferramenta indispensável para qualquer desenvolve
 <h2> alterar a msg de um commit </h2>
 <p> git commit --amend -m "mensagem correta"
 
+============================
+<h1 align="center"> Como escrever um README incrível no seu Github</h1>
 
+<p> https://www.alura.com.br/artigos/escrever-bom-readme
+
+
+<h1 align="center"> Como criar um README para o seu perfil do GitHub </h1>
+<p> https://www.alura.com.br/artigos/como-criar-um-readme-para-seu-perfil-github
